@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>easyurl</groupId>
+		<artifactId>easyurl</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>easyurl-ui</groupId>
+	<artifactId>easyurl-ui</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>easyurl-ui Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+		</dependency>
+	<dependency>
+		<groupId>org.json</groupId>
+		<artifactId>json</artifactId>
+		<version>20140107</version>
+	</dependency>
+	</dependencies>
+	<build>
+		<finalName>easyurl-ui</finalName>
+	</build>
+</project>
